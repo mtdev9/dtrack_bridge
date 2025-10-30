@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'dtrack_bridge_node = dtrack_bridge.dtrack_bridge_node:main',
         ],
-    },
+    }
 )
